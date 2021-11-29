@@ -1,0 +1,170 @@
+named thing	biolink:is_a	entity
+association	biolink:is_a	entity
+contributor association	biolink:is_a	association
+genotype to genotype part association	biolink:is_a	association
+genotype to gene association	biolink:is_a	association
+genotype to variant association	biolink:is_a	association
+gene to gene association	biolink:is_a	association
+cell line to disease or phenotypic feature association	biolink:is_a	association
+chemical to chemical association	biolink:is_a	association
+chemical to disease or phenotypic feature association	biolink:is_a	association
+chemical to pathway association	biolink:is_a	association
+chemical to gene association	biolink:is_a	association
+drug to gene association	biolink:is_a	association
+material sample derivation association	biolink:is_a	association
+material sample to disease or phenotypic feature association	biolink:is_a	association
+disease to exposure event association	biolink:is_a	association
+exposure event to outcome association	biolink:is_a	association
+information content entity to named thing association	biolink:is_a	association
+disease or phenotypic feature to location association	biolink:is_a	association
+genotype to phenotypic feature association	biolink:is_a	association
+exposure event to phenotypic feature association	biolink:is_a	association
+disease to phenotypic feature association	biolink:is_a	association
+case to phenotypic feature association	biolink:is_a	association
+behavior to behavioral feature association	biolink:is_a	association
+gene to phenotypic feature association	biolink:is_a	association
+gene to disease association	biolink:is_a	association
+variant to gene association	biolink:is_a	association
+variant to population association	biolink:is_a	association
+population to population association	biolink:is_a	association
+variant to phenotypic feature association	biolink:is_a	association
+variant to disease association	biolink:is_a	association
+genotype to disease association	biolink:is_a	association
+organismal entity as a model of disease association	biolink:is_a	association
+organism to organism association	biolink:is_a	association
+taxon to taxon association	biolink:is_a	association
+gene to expression site association	biolink:is_a	association
+sequence variant modulates treatment association	biolink:is_a	association
+functional association	biolink:is_a	association
+molecular activity to chemical entity association	biolink:is_a	association
+molecular activity to molecular activity association	biolink:is_a	association
+entity to disease association	biolink:is_a	association
+entity to phenotypic feature association	biolink:is_a	association
+sequence association	biolink:is_a	association
+sequence feature relationship	biolink:is_a	association
+gene regulatory relationship	biolink:is_a	association
+anatomical entity to anatomical entity association	biolink:is_a	association
+organism taxon to organism taxon association	biolink:is_a	association
+organism taxon to environment association	biolink:is_a	association
+organism taxon to organism taxon specialization	biolink:is_a	organism taxon to organism taxon association
+organism taxon to organism taxon interaction	biolink:is_a	organism taxon to organism taxon association
+anatomical entity to anatomical entity part of association	biolink:is_a	anatomical entity to anatomical entity association
+anatomical entity to anatomical entity ontogenic association	biolink:is_a	anatomical entity to anatomical entity association
+transcript to gene relationship	biolink:is_a	sequence feature relationship
+gene to gene product relationship	biolink:is_a	sequence feature relationship
+exon to transcript relationship	biolink:is_a	sequence feature relationship
+genomic sequence localization	biolink:is_a	sequence association
+macromolecular machine to molecular activity association	biolink:is_a	functional association
+macromolecular machine to biological process association	biolink:is_a	functional association
+macromolecular machine to cellular component association	biolink:is_a	functional association
+gene to go term association	biolink:is_a	functional association
+genotype as a model of disease association	biolink:is_a	genotype to disease association
+variant as a model of disease association	biolink:is_a	variant to disease association
+variant to gene expression association	biolink:is_a	variant to gene association
+gene as a model of disease association	biolink:is_a	gene to disease association
+gene has variant that contributes to disease association	biolink:is_a	gene to disease association
+reaction to participant association	biolink:is_a	chemical to chemical association
+chemical to chemical derivation association	biolink:is_a	chemical to chemical association
+reaction to catalyst association	biolink:is_a	reaction to participant association
+cell line as a model of disease association	biolink:is_a	cell line to disease or phenotypic feature association
+gene to gene homology association	biolink:is_a	gene to gene association
+gene to gene coexpression association	biolink:is_a	gene to gene association
+pairwise gene to gene interaction	biolink:is_a	gene to gene association
+pairwise molecular interaction	biolink:is_a	pairwise gene to gene interaction
+organism taxon	biolink:is_a	named thing
+event	biolink:is_a	named thing
+administrative entity	biolink:is_a	named thing
+information content entity	biolink:is_a	named thing
+physical entity	biolink:is_a	named thing
+activity	biolink:is_a	named thing
+procedure	biolink:is_a	named thing
+phenomenon	biolink:is_a	named thing
+device	biolink:is_a	named thing
+planetary entity	biolink:is_a	named thing
+biological entity	biolink:is_a	named thing
+chemical entity	biolink:is_a	named thing
+clinical entity	biolink:is_a	named thing
+treatment	biolink:is_a	named thing
+clinical trial	biolink:is_a	clinical entity
+clinical intervention	biolink:is_a	clinical entity
+hospitalization	biolink:is_a	clinical intervention
+molecular entity	biolink:is_a	chemical entity
+chemical mixture	biolink:is_a	chemical entity
+environmental food contaminant	biolink:is_a	chemical entity
+food additive	biolink:is_a	chemical entity
+nutrient	biolink:is_a	chemical entity
+macronutrient	biolink:is_a	nutrient
+micronutrient	biolink:is_a	nutrient
+vitamin	biolink:is_a	micronutrient
+molecular mixture	biolink:is_a	chemical mixture
+complex molecular mixture	biolink:is_a	chemical mixture
+processed material	biolink:is_a	chemical mixture
+food	biolink:is_a	chemical mixture
+drug	biolink:is_a	molecular mixture
+small molecule	biolink:is_a	molecular entity
+nucleic acid entity	biolink:is_a	molecular entity
+exon	biolink:is_a	nucleic acid entity
+transcript	biolink:is_a	nucleic acid entity
+coding sequence	biolink:is_a	nucleic acid entity
+RNA product	biolink:is_a	transcript
+RNA product isoform	biolink:is_a	RNA product
+noncoding RNA product	biolink:is_a	RNA product
+microRNA	biolink:is_a	noncoding RNA product
+siRNA	biolink:is_a	noncoding RNA product
+biological process or activity	biolink:is_a	biological entity
+organismal entity	biolink:is_a	biological entity
+disease or phenotypic feature	biolink:is_a	biological entity
+gene	biolink:is_a	biological entity
+genome	biolink:is_a	biological entity
+polypeptide	biolink:is_a	biological entity
+protein domain	biolink:is_a	biological entity
+protein family	biolink:is_a	biological entity
+nucleic acid sequence motif	biolink:is_a	biological entity
+gene family	biolink:is_a	biological entity
+genotype	biolink:is_a	biological entity
+haplotype	biolink:is_a	biological entity
+sequence variant	biolink:is_a	biological entity
+reagent targeted gene	biolink:is_a	biological entity
+snv	biolink:is_a	sequence variant
+protein	biolink:is_a	polypeptide
+protein isoform	biolink:is_a	protein
+disease	biolink:is_a	disease or phenotypic feature
+phenotypic feature	biolink:is_a	disease or phenotypic feature
+behavioral feature	biolink:is_a	phenotypic feature
+clinical finding	biolink:is_a	phenotypic feature
+life stage	biolink:is_a	organismal entity
+individual organism	biolink:is_a	organismal entity
+population of individual organisms	biolink:is_a	organismal entity
+anatomical entity	biolink:is_a	organismal entity
+cell line	biolink:is_a	organismal entity
+cellular component	biolink:is_a	anatomical entity
+cell	biolink:is_a	anatomical entity
+gross anatomical structure	biolink:is_a	anatomical entity
+pathological anatomical structure	biolink:is_a	anatomical entity
+study population	biolink:is_a	population of individual organisms
+cohort	biolink:is_a	study population
+case	biolink:is_a	individual organism
+molecular activity	biolink:is_a	biological process or activity
+biological process	biolink:is_a	biological process or activity
+pathway	biolink:is_a	biological process
+physiological process	biolink:is_a	biological process
+behavior	biolink:is_a	biological process
+pathological process	biolink:is_a	biological process
+environmental process	biolink:is_a	planetary entity
+environmental feature	biolink:is_a	planetary entity
+geographic location	biolink:is_a	planetary entity
+geographic location at time	biolink:is_a	geographic location
+material sample	biolink:is_a	physical entity
+dataset	biolink:is_a	information content entity
+dataset distribution	biolink:is_a	information content entity
+dataset version	biolink:is_a	information content entity
+dataset summary	biolink:is_a	information content entity
+confidence level	biolink:is_a	information content entity
+evidence type	biolink:is_a	information content entity
+information resource	biolink:is_a	information content entity
+publication	biolink:is_a	information content entity
+book	biolink:is_a	publication
+book chapter	biolink:is_a	publication
+serial	biolink:is_a	publication
+article	biolink:is_a	publication
+agent	biolink:is_a	administrative entity
